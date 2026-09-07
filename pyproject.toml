@@ -3,3 +3,6 @@ name = "desempenho-parlamentar"
 version = "0.1.0"
 description = "Avaliação de desempenho parlamentar baseada em dados públicos"
 requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28,<1.0",
+]
